@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4C69FEC7-98A1-4D18-A690-9D4156235E25</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LessonDraw</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B855D7560A73B92D529DE431348B109FFB138C4E</key>
+		<string>https://github.com/liuhongCode/ukitStudy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LessonDraw/LessonDraw.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B855D7560A73B92D529DE431348B109FFB138C4E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/liuhongCode/ukitStudy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B855D7560A73B92D529DE431348B109FFB138C4E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B855D7560A73B92D529DE431348B109FFB138C4E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ukitStudy</string>
+		</dict>
+	</array>
+</dict>
+</plist>
