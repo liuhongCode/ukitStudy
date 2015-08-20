@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A28324081B85F28100929F37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A28324071B85F28100929F37 /* main.m */; };
+		A283240B1B85F28100929F37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A283240A1B85F28100929F37 /* AppDelegate.m */; };
+		A283240D1B85F28100929F37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A283240C1B85F28100929F37 /* Images.xcassets */; };
+		A28324101B85F28100929F37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A283240E1B85F28100929F37 /* LaunchScreen.xib */; };
+		A283241C1B85F28100929F37 /* UIImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A283241B1B85F28100929F37 /* UIImageViewTests.m */; };
+		A28324271B85F2D600929F37 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28324261B85F2D600929F37 /* RootViewController.m */; };
+		A283242B1B85FECA00929F37 /* footballFunny－1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A283242A1B85FECA00929F37 /* footballFunny－1.tiff */; };
+		A28324CB1B8607D400929F37 /* footballFunny－1（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324AC1B8607D400929F37 /* footballFunny－1（被拖移）.tiff */; };
+		A28324CC1B8607D400929F37 /* footballFunny－2（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324AD1B8607D400929F37 /* footballFunny－2（被拖移）.tiff */; };
+		A28324CD1B8607D400929F37 /* footballFunny－3（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324AE1B8607D400929F37 /* footballFunny－3（被拖移）.tiff */; };
+		A28324CE1B8607D400929F37 /* footballFunny－4（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324AF1B8607D400929F37 /* footballFunny－4（被拖移）.tiff */; };
+		A28324CF1B8607D400929F37 /* footballFunny－5（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324B01B8607D400929F37 /* footballFunny－5（被拖移）.tiff */; };
+		A28324D01B8607D400929F37 /* footballFunny－6（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324B11B8607D400929F37 /* footballFunny－6（被拖移）.tiff */; };
+		A28324D11B8607D400929F37 /* footballFunny－7（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324B21B8607D400929F37 /* footballFunny－7（被拖移）.tiff */; };
+		A28324D21B8607D400929F37 /* footballFunny－8（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324B31B8607D400929F37 /* footballFunny－8（被拖移）.tiff */; };
+		A28324D31B8607D400929F37 /* footballFunny－9（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324B41B8607D400929F37 /* footballFunny－9（被拖移）.tiff */; };
+		A28324D41B8607D400929F37 /* footballFunny－10（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324B51B8607D400929F37 /* footballFunny－10（被拖移）.tiff */; };
+		A28324D51B8607D400929F37 /* footballFunny－11（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324B61B8607D400929F37 /* footballFunny－11（被拖移）.tiff */; };
+		A28324D61B8607D400929F37 /* footballFunny－12（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324B71B8607D400929F37 /* footballFunny－12（被拖移）.tiff */; };
+		A28324D71B8607D400929F37 /* footballFunny－13（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324B81B8607D400929F37 /* footballFunny－13（被拖移）.tiff */; };
+		A28324D81B8607D400929F37 /* footballFunny－14（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324B91B8607D400929F37 /* footballFunny－14（被拖移）.tiff */; };
+		A28324D91B8607D400929F37 /* footballFunny－15（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324BA1B8607D400929F37 /* footballFunny－15（被拖移）.tiff */; };
+		A28324DA1B8607D400929F37 /* footballFunny－16（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324BB1B8607D400929F37 /* footballFunny－16（被拖移）.tiff */; };
+		A28324DB1B8607D400929F37 /* footballFunny－17（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324BC1B8607D400929F37 /* footballFunny－17（被拖移）.tiff */; };
+		A28324DC1B8607D400929F37 /* footballFunny－18（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324BD1B8607D400929F37 /* footballFunny－18（被拖移）.tiff */; };
+		A28324DD1B8607D400929F37 /* footballFunny－19（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324BE1B8607D400929F37 /* footballFunny－19（被拖移）.tiff */; };
+		A28324DE1B8607D400929F37 /* footballFunny－20（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324BF1B8607D400929F37 /* footballFunny－20（被拖移）.tiff */; };
+		A28324DF1B8607D400929F37 /* footballFunny－21（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324C01B8607D400929F37 /* footballFunny－21（被拖移）.tiff */; };
+		A28324E01B8607D400929F37 /* footballFunny－22（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324C11B8607D400929F37 /* footballFunny－22（被拖移）.tiff */; };
+		A28324E11B8607D400929F37 /* footballFunny－23（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324C21B8607D400929F37 /* footballFunny－23（被拖移）.tiff */; };
+		A28324E21B8607D400929F37 /* footballFunny－24（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324C31B8607D400929F37 /* footballFunny－24（被拖移）.tiff */; };
+		A28324E31B8607D400929F37 /* footballFunny－25（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324C41B8607D400929F37 /* footballFunny－25（被拖移）.tiff */; };
+		A28324E41B8607D400929F37 /* footballFunny－26（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324C51B8607D400929F37 /* footballFunny－26（被拖移）.tiff */; };
+		A28324E51B8607D400929F37 /* footballFunny－27（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324C61B8607D400929F37 /* footballFunny－27（被拖移）.tiff */; };
+		A28324E61B8607D400929F37 /* footballFunny－28（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324C71B8607D400929F37 /* footballFunny－28（被拖移）.tiff */; };
+		A28324E71B8607D400929F37 /* footballFunny－29（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324C81B8607D400929F37 /* footballFunny－29（被拖移）.tiff */; };
+		A28324E81B8607D400929F37 /* footballFunny－30（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324C91B8607D400929F37 /* footballFunny－30（被拖移）.tiff */; };
+		A28324E91B8607D400929F37 /* footballFunny－31（被拖移）.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A28324CA1B8607D400929F37 /* footballFunny－31（被拖移）.tiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A28324161B85F28100929F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28323FA1B85F28100929F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28324011B85F28100929F37;
+			remoteInfo = UIImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A28324021B85F28100929F37 /* UIImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28324061B85F28100929F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28324071B85F28100929F37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A28324091B85F28100929F37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A283240A1B85F28100929F37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A283240C1B85F28100929F37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A283240F1B85F28100929F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A28324151B85F28100929F37 /* UIImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A283241A1B85F28100929F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A283241B1B85F28100929F37 /* UIImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImageViewTests.m; sourceTree = "<group>"; };
+		A28324251B85F2D600929F37 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A28324261B85F2D600929F37 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A283242A1B85FECA00929F37 /* footballFunny－1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－1.tiff"; sourceTree = "<group>"; };
+		A28324AC1B8607D400929F37 /* footballFunny－1（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－1（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324AD1B8607D400929F37 /* footballFunny－2（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－2（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324AE1B8607D400929F37 /* footballFunny－3（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－3（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324AF1B8607D400929F37 /* footballFunny－4（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－4（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324B01B8607D400929F37 /* footballFunny－5（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－5（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324B11B8607D400929F37 /* footballFunny－6（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－6（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324B21B8607D400929F37 /* footballFunny－7（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－7（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324B31B8607D400929F37 /* footballFunny－8（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－8（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324B41B8607D400929F37 /* footballFunny－9（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－9（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324B51B8607D400929F37 /* footballFunny－10（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－10（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324B61B8607D400929F37 /* footballFunny－11（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－11（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324B71B8607D400929F37 /* footballFunny－12（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－12（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324B81B8607D400929F37 /* footballFunny－13（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－13（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324B91B8607D400929F37 /* footballFunny－14（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－14（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324BA1B8607D400929F37 /* footballFunny－15（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－15（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324BB1B8607D400929F37 /* footballFunny－16（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－16（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324BC1B8607D400929F37 /* footballFunny－17（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－17（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324BD1B8607D400929F37 /* footballFunny－18（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－18（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324BE1B8607D400929F37 /* footballFunny－19（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－19（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324BF1B8607D400929F37 /* footballFunny－20（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－20（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324C01B8607D400929F37 /* footballFunny－21（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－21（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324C11B8607D400929F37 /* footballFunny－22（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－22（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324C21B8607D400929F37 /* footballFunny－23（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－23（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324C31B8607D400929F37 /* footballFunny－24（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－24（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324C41B8607D400929F37 /* footballFunny－25（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－25（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324C51B8607D400929F37 /* footballFunny－26（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－26（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324C61B8607D400929F37 /* footballFunny－27（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－27（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324C71B8607D400929F37 /* footballFunny－28（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－28（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324C81B8607D400929F37 /* footballFunny－29（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－29（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324C91B8607D400929F37 /* footballFunny－30（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－30（被拖移）.tiff"; sourceTree = "<group>"; };
+		A28324CA1B8607D400929F37 /* footballFunny－31（被拖移）.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "footballFunny－31（被拖移）.tiff"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A28323FF1B85F28100929F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28324121B85F28100929F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A28323F91B85F28100929F37 = {
+			isa = PBXGroup;
+			children = (
+				A28324041B85F28100929F37 /* UIImageView */,
+				A28324181B85F28100929F37 /* UIImageViewTests */,
+				A28324031B85F28100929F37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A28324031B85F28100929F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28324021B85F28100929F37 /* UIImageView.app */,
+				A28324151B85F28100929F37 /* UIImageViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A28324041B85F28100929F37 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				A28324AB1B86066F00929F37 /* gif */,
+				A283242A1B85FECA00929F37 /* footballFunny－1.tiff */,
+				A28324091B85F28100929F37 /* AppDelegate.h */,
+				A283240A1B85F28100929F37 /* AppDelegate.m */,
+				A283240C1B85F28100929F37 /* Images.xcassets */,
+				A283240E1B85F28100929F37 /* LaunchScreen.xib */,
+				A28324051B85F28100929F37 /* Supporting Files */,
+				A28324251B85F2D600929F37 /* RootViewController.h */,
+				A28324261B85F2D600929F37 /* RootViewController.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		A28324051B85F28100929F37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A28324061B85F28100929F37 /* Info.plist */,
+				A28324071B85F28100929F37 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A28324181B85F28100929F37 /* UIImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A283241B1B85F28100929F37 /* UIImageViewTests.m */,
+				A28324191B85F28100929F37 /* Supporting Files */,
+			);
+			path = UIImageViewTests;
+			sourceTree = "<group>";
+		};
+		A28324191B85F28100929F37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A283241A1B85F28100929F37 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A28324AB1B86066F00929F37 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				A28324AC1B8607D400929F37 /* footballFunny－1（被拖移）.tiff */,
+				A28324AD1B8607D400929F37 /* footballFunny－2（被拖移）.tiff */,
+				A28324AE1B8607D400929F37 /* footballFunny－3（被拖移）.tiff */,
+				A28324AF1B8607D400929F37 /* footballFunny－4（被拖移）.tiff */,
+				A28324B01B8607D400929F37 /* footballFunny－5（被拖移）.tiff */,
+				A28324B11B8607D400929F37 /* footballFunny－6（被拖移）.tiff */,
+				A28324B21B8607D400929F37 /* footballFunny－7（被拖移）.tiff */,
+				A28324B31B8607D400929F37 /* footballFunny－8（被拖移）.tiff */,
+				A28324B41B8607D400929F37 /* footballFunny－9（被拖移）.tiff */,
+				A28324B51B8607D400929F37 /* footballFunny－10（被拖移）.tiff */,
+				A28324B61B8607D400929F37 /* footballFunny－11（被拖移）.tiff */,
+				A28324B71B8607D400929F37 /* footballFunny－12（被拖移）.tiff */,
+				A28324B81B8607D400929F37 /* footballFunny－13（被拖移）.tiff */,
+				A28324B91B8607D400929F37 /* footballFunny－14（被拖移）.tiff */,
+				A28324BA1B8607D400929F37 /* footballFunny－15（被拖移）.tiff */,
+				A28324BB1B8607D400929F37 /* footballFunny－16（被拖移）.tiff */,
+				A28324BC1B8607D400929F37 /* footballFunny－17（被拖移）.tiff */,
+				A28324BD1B8607D400929F37 /* footballFunny－18（被拖移）.tiff */,
+				A28324BE1B8607D400929F37 /* footballFunny－19（被拖移）.tiff */,
+				A28324BF1B8607D400929F37 /* footballFunny－20（被拖移）.tiff */,
+				A28324C01B8607D400929F37 /* footballFunny－21（被拖移）.tiff */,
+				A28324C11B8607D400929F37 /* footballFunny－22（被拖移）.tiff */,
+				A28324C21B8607D400929F37 /* footballFunny－23（被拖移）.tiff */,
+				A28324C31B8607D400929F37 /* footballFunny－24（被拖移）.tiff */,
+				A28324C41B8607D400929F37 /* footballFunny－25（被拖移）.tiff */,
+				A28324C51B8607D400929F37 /* footballFunny－26（被拖移）.tiff */,
+				A28324C61B8607D400929F37 /* footballFunny－27（被拖移）.tiff */,
+				A28324C71B8607D400929F37 /* footballFunny－28（被拖移）.tiff */,
+				A28324C81B8607D400929F37 /* footballFunny－29（被拖移）.tiff */,
+				A28324C91B8607D400929F37 /* footballFunny－30（被拖移）.tiff */,
+				A28324CA1B8607D400929F37 /* footballFunny－31（被拖移）.tiff */,
+			);
+			name = gif;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A28324011B85F28100929F37 /* UIImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A283241F1B85F28100929F37 /* Build configuration list for PBXNativeTarget "UIImageView" */;
+			buildPhases = (
+				A28323FE1B85F28100929F37 /* Sources */,
+				A28323FF1B85F28100929F37 /* Frameworks */,
+				A28324001B85F28100929F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIImageView;
+			productName = UIImageView;
+			productReference = A28324021B85F28100929F37 /* UIImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A28324141B85F28100929F37 /* UIImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28324221B85F28100929F37 /* Build configuration list for PBXNativeTarget "UIImageViewTests" */;
+			buildPhases = (
+				A28324111B85F28100929F37 /* Sources */,
+				A28324121B85F28100929F37 /* Frameworks */,
+				A28324131B85F28100929F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A28324171B85F28100929F37 /* PBXTargetDependency */,
+			);
+			name = UIImageViewTests;
+			productName = UIImageViewTests;
+			productReference = A28324151B85F28100929F37 /* UIImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A28323FA1B85F28100929F37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = LH;
+				TargetAttributes = {
+					A28324011B85F28100929F37 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					A28324141B85F28100929F37 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = A28324011B85F28100929F37;
+					};
+				};
+			};
+			buildConfigurationList = A28323FD1B85F28100929F37 /* Build configuration list for PBXProject "UIImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A28323F91B85F28100929F37;
+			productRefGroup = A28324031B85F28100929F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A28324011B85F28100929F37 /* UIImageView */,
+				A28324141B85F28100929F37 /* UIImageViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A28324001B85F28100929F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28324E81B8607D400929F37 /* footballFunny－30（被拖移）.tiff in Resources */,
+				A28324D91B8607D400929F37 /* footballFunny－15（被拖移）.tiff in Resources */,
+				A28324DF1B8607D400929F37 /* footballFunny－21（被拖移）.tiff in Resources */,
+				A28324101B85F28100929F37 /* LaunchScreen.xib in Resources */,
+				A28324D01B8607D400929F37 /* footballFunny－6（被拖移）.tiff in Resources */,
+				A28324E01B8607D400929F37 /* footballFunny－22（被拖移）.tiff in Resources */,
+				A28324E41B8607D400929F37 /* footballFunny－26（被拖移）.tiff in Resources */,
+				A28324D71B8607D400929F37 /* footballFunny－13（被拖移）.tiff in Resources */,
+				A28324DA1B8607D400929F37 /* footballFunny－16（被拖移）.tiff in Resources */,
+				A28324CE1B8607D400929F37 /* footballFunny－4（被拖移）.tiff in Resources */,
+				A28324DD1B8607D400929F37 /* footballFunny－19（被拖移）.tiff in Resources */,
+				A28324CF1B8607D400929F37 /* footballFunny－5（被拖移）.tiff in Resources */,
+				A28324D81B8607D400929F37 /* footballFunny－14（被拖移）.tiff in Resources */,
+				A28324D51B8607D400929F37 /* footballFunny－11（被拖移）.tiff in Resources */,
+				A283240D1B85F28100929F37 /* Images.xcassets in Resources */,
+				A28324DC1B8607D400929F37 /* footballFunny－18（被拖移）.tiff in Resources */,
+				A28324DB1B8607D400929F37 /* footballFunny－17（被拖移）.tiff in Resources */,
+				A28324D21B8607D400929F37 /* footballFunny－8（被拖移）.tiff in Resources */,
+				A28324DE1B8607D400929F37 /* footballFunny－20（被拖移）.tiff in Resources */,
+				A28324E31B8607D400929F37 /* footballFunny－25（被拖移）.tiff in Resources */,
+				A28324E11B8607D400929F37 /* footballFunny－23（被拖移）.tiff in Resources */,
+				A28324D61B8607D400929F37 /* footballFunny－12（被拖移）.tiff in Resources */,
+				A28324E91B8607D400929F37 /* footballFunny－31（被拖移）.tiff in Resources */,
+				A28324E51B8607D400929F37 /* footballFunny－27（被拖移）.tiff in Resources */,
+				A28324CB1B8607D400929F37 /* footballFunny－1（被拖移）.tiff in Resources */,
+				A28324CC1B8607D400929F37 /* footballFunny－2（被拖移）.tiff in Resources */,
+				A28324CD1B8607D400929F37 /* footballFunny－3（被拖移）.tiff in Resources */,
+				A28324E71B8607D400929F37 /* footballFunny－29（被拖移）.tiff in Resources */,
+				A28324E61B8607D400929F37 /* footballFunny－28（被拖移）.tiff in Resources */,
+				A28324D41B8607D400929F37 /* footballFunny－10（被拖移）.tiff in Resources */,
+				A28324D11B8607D400929F37 /* footballFunny－7（被拖移）.tiff in Resources */,
+				A28324D31B8607D400929F37 /* footballFunny－9（被拖移）.tiff in Resources */,
+				A283242B1B85FECA00929F37 /* footballFunny－1.tiff in Resources */,
+				A28324E21B8607D400929F37 /* footballFunny－24（被拖移）.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28324131B85F28100929F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A28323FE1B85F28100929F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A283240B1B85F28100929F37 /* AppDelegate.m in Sources */,
+				A28324081B85F28100929F37 /* main.m in Sources */,
+				A28324271B85F2D600929F37 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28324111B85F28100929F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A283241C1B85F28100929F37 /* UIImageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A28324171B85F28100929F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A28324011B85F28100929F37 /* UIImageView */;
+			targetProxy = A28324161B85F28100929F37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A283240E1B85F28100929F37 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A283240F1B85F28100929F37 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A283241D1B85F28100929F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A283241E1B85F28100929F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A28324201B85F28100929F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A28324211B85F28100929F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A28324231B85F28100929F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImageView.app/UIImageView";
+			};
+			name = Debug;
+		};
+		A28324241B85F28100929F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImageView.app/UIImageView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A28323FD1B85F28100929F37 /* Build configuration list for PBXProject "UIImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A283241D1B85F28100929F37 /* Debug */,
+				A283241E1B85F28100929F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A283241F1B85F28100929F37 /* Build configuration list for PBXNativeTarget "UIImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28324201B85F28100929F37 /* Debug */,
+				A28324211B85F28100929F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A28324221B85F28100929F37 /* Build configuration list for PBXNativeTarget "UIImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28324231B85F28100929F37 /* Debug */,
+				A28324241B85F28100929F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A28323FA1B85F28100929F37 /* Project object */;
+}
